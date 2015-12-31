@@ -12,11 +12,6 @@
     "watch"
   ],
   "author": "gaoyang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yanggao40/watch-png-min/issues"
-  },
-  "homepage": "https://github.com/yanggao40/watch-png-min#readme",
   "dependencies": {
     "watch": "0.17.0",
     "imagemin": "4.0.0",
