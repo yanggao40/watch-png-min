@@ -1,6 +1,6 @@
 {
   "name": "watch-png-min",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "description": "watch files change and compress png",
   "main": "index.js",
   "bin": {
@@ -16,6 +16,7 @@
     "watch": "0.17.0",
     "imagemin": "4.0.0",
     "imagemin-pngquant": "4.2.0",
-    "commander": "2.9.0"
+    "commander": "2.9.0",
+    "node-schedule": "0.6.0"
   }
 }
