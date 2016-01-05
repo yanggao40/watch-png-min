@@ -39,7 +39,7 @@ var contactFileArr = function() {
   var addLen = filesAdded.length;
   var editLen = filesEdited.length;
   for (var j = 0; j < editLen; j++) {
-    if ((filesEdited[j]['name'] + '').indexOf('git/HEAD') > -1) {
+    if (filesEdited[j] && filesEdited[j]['name'] && filesEdited[j]['name'].indexOf('git/HEAD') > -1) {
       filesEdited = [];
       filesAdded = [];
     }
@@ -112,7 +112,7 @@ var watchPng = function(reg) {
 };
 
 program
-  .version('0.1.1')
+  .version('0.1.2')
   .option('-m, --mode [mode]', 'site or mobile for shangtongdai', 'm')
   .parse(process.argv);
 
